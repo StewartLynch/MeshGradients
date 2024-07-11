@@ -6,13 +6,30 @@
 	objectVersion = 60;
 	objects = {
 
-/* Begin PBXFileReference section */
-		BBEE863A2C3F3D1800B0070E /* MeshGradients.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeshGradients.app; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
+/* Begin PBXBuildFile section */
+		BB01CADB2C4089EC0032F668 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB01CADA2C4089EC0032F668 /* Launch Screen.storyboard */; };
+		BBEE86562C3F430F00B0070E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBEE864F2C3F430F00B0070E /* Preview Assets.xcassets */; };
+		BBEE86572C3F430F00B0070E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBEE86512C3F430F00B0070E /* Assets.xcassets */; };
+		BBEE86582C3F430F00B0070E /* Introduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEE86522C3F430F00B0070E /* Introduction.swift */; };
+		BBEE86592C3F430F00B0070E /* MeshGradientsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEE86532C3F430F00B0070E /* MeshGradientsApp.swift */; };
+		BBEE865A2C3F430F00B0070E /* StartTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEE86542C3F430F00B0070E /* StartTab.swift */; };
+		BBEE866A2C3F8AA000B0070E /* Experiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEE86692C3F8AA000B0070E /* Experiment.swift */; };
+		BBEE866C2C3F9A3F00B0070E /* AnimationDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEE866B2C3F9A3F00B0070E /* AnimationDemoView.swift */; };
+		BBEE866E2C3F9EF700B0070E /* CustomBackgrounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEE866D2C3F9EF700B0070E /* CustomBackgrounds.swift */; };
+/* End PBXBuildFile section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BBEE863C2C3F3D1800B0070E /* MeshGradients */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = MeshGradients; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
+/* Begin PBXFileReference section */
+		BB01CADA2C4089EC0032F668 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		BBEE863A2C3F3D1800B0070E /* MeshGradients.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeshGradients.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBEE864F2C3F430F00B0070E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BBEE86512C3F430F00B0070E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBEE86522C3F430F00B0070E /* Introduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Introduction.swift; sourceTree = "<group>"; };
+		BBEE86532C3F430F00B0070E /* MeshGradientsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGradientsApp.swift; sourceTree = "<group>"; };
+		BBEE86542C3F430F00B0070E /* StartTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTab.swift; sourceTree = "<group>"; };
+		BBEE86692C3F8AA000B0070E /* Experiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experiment.swift; sourceTree = "<group>"; };
+		BBEE866B2C3F9A3F00B0070E /* AnimationDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDemoView.swift; sourceTree = "<group>"; };
+		BBEE866D2C3F9EF700B0070E /* CustomBackgrounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgrounds.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BBEE86372C3F3D1800B0070E /* Frameworks */ = {
@@ -28,7 +45,7 @@
 		BBEE86312C3F3D1800B0070E = {
 			isa = PBXGroup;
 			children = (
-				BBEE863C2C3F3D1800B0070E /* MeshGradients */,
+				BBEE86552C3F430F00B0070E /* MeshGradients */,
 				BBEE863B2C3F3D1800B0070E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +56,30 @@
 				BBEE863A2C3F3D1800B0070E /* MeshGradients.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BBEE86502C3F430F00B0070E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BBEE864F2C3F430F00B0070E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BBEE86552C3F430F00B0070E /* MeshGradients */ = {
+			isa = PBXGroup;
+			children = (
+				BBEE86532C3F430F00B0070E /* MeshGradientsApp.swift */,
+				BBEE86542C3F430F00B0070E /* StartTab.swift */,
+				BBEE86522C3F430F00B0070E /* Introduction.swift */,
+				BBEE86692C3F8AA000B0070E /* Experiment.swift */,
+				BBEE866B2C3F9A3F00B0070E /* AnimationDemoView.swift */,
+				BBEE866D2C3F9EF700B0070E /* CustomBackgrounds.swift */,
+				BB01CADA2C4089EC0032F668 /* Launch Screen.storyboard */,
+				BBEE86502C3F430F00B0070E /* Preview Content */,
+				BBEE86512C3F430F00B0070E /* Assets.xcassets */,
+			);
+			path = MeshGradients;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -55,9 +96,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BBEE863C2C3F3D1800B0070E /* MeshGradients */,
 			);
 			name = MeshGradients;
 			packageProductDependencies = (
@@ -104,6 +142,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB01CADB2C4089EC0032F668 /* Launch Screen.storyboard in Resources */,
+				BBEE86562C3F430F00B0070E /* Preview Assets.xcassets in Resources */,
+				BBEE86572C3F430F00B0070E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBEE866A2C3F8AA000B0070E /* Experiment.swift in Sources */,
+				BBEE866C2C3F9A3F00B0070E /* AnimationDemoView.swift in Sources */,
+				BBEE86582C3F430F00B0070E /* Introduction.swift in Sources */,
+				BBEE86592C3F430F00B0070E /* MeshGradientsApp.swift in Sources */,
+				BBEE866E2C3F9EF700B0070E /* CustomBackgrounds.swift in Sources */,
+				BBEE865A2C3F430F00B0070E /* StartTab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,11 +294,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MeshGradients/Preview Content\"";
+				DEVELOPMENT_TEAM = RKV4UP49S6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -275,11 +324,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MeshGradients/Preview Content\"";
+				DEVELOPMENT_TEAM = RKV4UP49S6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
