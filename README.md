@@ -1,6 +1,6 @@
 # MeshGradients iOS 18
 
-![mac128](Images/mac128.png)This is the starter project for the video on introducing and using MeshGradients in iOS 18 and MacOS 15
+![mac128](Images/mac128.png)This is the completed source code for the video on introducing and using MeshGradients in iOS 18 and MacOS 15
 
 
 
