@@ -2,7 +2,7 @@
 
 ![mac128](Images/mac128.png)This is the starter project for the video on introducing and using MeshGradients in iOS 18 and MacOS 15
 
-
+Release Date: August 18, 2024
 
 </a>
 
